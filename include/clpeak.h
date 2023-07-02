@@ -49,6 +49,7 @@ public:
   int runKernelLatency(cl::CommandQueue &queue, cl::Program &prog, device_info_t &devInfo);
 
   int runAll();
+  int runLoop(int n);
 };
 
 #endif // CLPEAK_HPP

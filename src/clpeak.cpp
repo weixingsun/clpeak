@@ -37,6 +37,12 @@ clPeak::~clPeak()
   }
 }
 
+int clPeak::runLoop(int n){
+  for(int i=0;i<n;i++){
+    (*this).runAll();
+  }
+}
+
 int clPeak::runAll()
 {
   try

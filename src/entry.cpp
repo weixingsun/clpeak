@@ -6,5 +6,6 @@ int main(int argc, char **argv)
 
   clObj.parseArgs(argc, argv);
 
-  return clObj.runAll();
+  //return clObj.runAll();
+  return clObj.runLoop(5);
 }
